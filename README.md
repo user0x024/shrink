@@ -69,16 +69,6 @@ uv run shk-docker.py -- -t myapp:latest .
 uv run shk-xcodebuild.py -- -scheme MyApp -sdk iphonesimulator build
 ```
 
-## 🔧 Adding a New Wrapper
-
-Spot a tool that dumps walls of text? Wrap it:
-
-1. Create `shk-<tool>.py` following the same contract: `{status, totals, failures[]|errors[]}`
-2. Add a row to the table above
-3. Done ✅
-
-The rule of thumb: if raw output is **>50 lines** and actionable content is **<20%** of that, it's a shrink candidate.
-
 ## 📄 License
 
 MIT
