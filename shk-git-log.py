@@ -15,7 +15,7 @@ import json
 import subprocess
 import sys
 
-SEP = "\x00"
+SEP = "\x1f"
 FMT = SEP.join(["%h", "%aI", "%an", "%s"])
 
 
